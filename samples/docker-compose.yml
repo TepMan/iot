@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  led-blink:
+    image: ${DOCKER_REGISTRY-}ledblink
+    build:
+      context: .
+      dockerfile: led-blink/Dockerfile
