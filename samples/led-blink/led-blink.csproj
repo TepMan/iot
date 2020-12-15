@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-      <TargetFramework>net5.0</TargetFramework>
+      <TargetFramework>netcoreapp3.1</TargetFramework>
     <!--
       To target Windows IoT, use the following TargetFramework property instead, or multi-target
       <TargetFramework>net5.0-windows10.0.17763.0</TargetFramework>
